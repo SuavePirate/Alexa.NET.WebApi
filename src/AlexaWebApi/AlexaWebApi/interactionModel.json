@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "animal facts",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "I'm all set"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Quit",
+            "Goodbye"
+          ]
+        },
+        {
+          "name": "AnimalFactIntent",
+          "slots": [
+            {
+              "name": "Animal",
+              "type": "AMAZON.Animal"
+            }
+          ],
+          "samples": [
+            "I'd like to know about {Animal}",
+            "What is an {Animal}",
+            "Give me information about the {Animal}",
+            "Tell me about {Animal}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
